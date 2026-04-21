@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadya Rabila - 240504059</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">NTB Tourism</div>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </label>
+
+            <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#kategori">Kategori</a></li>
+            <li><a href="#top5">Top 5</a></li>
+            <li><a href="#ntb-def">Keunggulan</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="video-home">
+            <video autoplay muted loop id="hero-video">
+            <source src="img/pantai/vd_lombok.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1>Jelajahi Keindahan Nusa Tenggara Barat</h1>
+            <p>
+                Yuk, temukan "surga dunia" mu di Lombok dan Sumbawa! Alam yang memukau, ragam budaya, dan keramahan masyarakatnya di sana pasti ga bakal bisa kamu lupain~
+            </p>
+            <a href="#kategori"> <button class="btn-start">Mulai Jelajahi</button> </a>
+        </div>
+    </section>
+
+    <section id="kategori" class="categories">
+        <div class="container">
+
+            <h2>Kategori Wisata NTB</h2>
+            <div class="category-section">
+                <h3>Pantai</h3>
+                <p>
+                Keindahan alami NTB terpancar dari garis pantainya yang indah dan pasir putih yang lembut. Dari
+                Pantai Pink yang eksotis hingga Pantai Senggigi yang legendaris, banyak artis yang memilih tempat
+                ini sebagai tujuan wisata, loh!
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="img/pantai/pantai-pink-1.jpg" alt="Pantai Pink">
+                        <h4>Pantai Pink</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-selong-belanak-2.jpg" alt="Pantai Selng Belanak">
+                        <h4>Pantai Selong Belanak</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-kuta-mandalika-1.png" alt="Pantai Kuta Mandalika">
+                        <h4>Pantai Kuta Mandalika</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-senggigi-1.jpg" alt="Pantai Senggigi">
+                        <h4>Pantai Senggigi</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-tanjung-aan-1.jpg" alt="Pantai Tanjung Aan">
+                        <h4>Pantai Tanjung Aan</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-mawun-1.jpg" alt="Pantai Mawun">
+                        <h4>Pantai Mawun</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-ekas-1.png" alt="Pantai Ekas">
+                        <h4>Pantai Ekas</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/pantai/pantai-nipah-1.png" alt="Pantai Npiah">
+                        <h4>Pantai Nipah</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section">
+                <h3>Gunung & Danau</h3>
+                <p>
+                    Buat kamu yang suka tantangan dan petualangan, mendaki Gunung Rinjani cocok banget buat kamu! Gunung
+                    rinjani adalah gunung favorit para pendaki~ Atau bisa juga jelajahi keindahan Danau Segara Anak yang
+                    memukau.
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="img/gunung-danau-bukit/gunung-rinjani-1.jpg" alt="Gunung Rinjani">
+                        <h4>Gunung Rinjani</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gunung-danau-bukit/danau-segara-anak-1.jpeg" alt="Danau Segara Anak">
+                        <h4>Danau Segara Anak</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gunung-danau-bukit/bukit-merese-1.png" alt="Bukit Merese">
+                        <h4>Bukit Merese</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gunung-danau-bukit/savana-propok-1.jpeg" alt="Savana Propok">
+                        <h4>Savana Proopok</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gunung-danau-bukit/bukit-pergasingan-1.jpg" alt="Bukit Pergasingan">
+                        <h4>Bukit Pergasingan</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section">
+                <h3>Air Terjun</h3>
+                <p>
+                    Keindahan alami NTB juga terpancar dari deretan air terjun yang memukau. Dari Benang Kelambu yang
+                    cukup hijau hingga Sendang Gile yang menakjubkan, NTB punya surga tersembunyi berupa air terjun yang
+                    masih alami.
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="img/air-terjun/sendang-gile-1.jpg" alt="Sendang Gile">
+                        <h4>Sendang Gile</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/air-terjun/benang-kelambu-1.png" alt="Air Terjun Benang Kelambu">
+                        <h4>Benang Kelambu</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/air-terjun/benang-stokel-1.jpg" alt= "Air Terjun Benang Stokel" >
+                        <h4>Benang Stokel</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/air-terjun/tiu-kelep-1.jpg" alt="Air Terjun  Tiu Kelep">
+                        <h4>Tiu Kelep</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/air-terjun/mata-jitu-1.png" alt="Air Terjun Mata Jitu">
+                        <h4>Mata Jitu</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section">
+                <h3>Desa Wisata</h3>
+                <p>
+                    Kamu juga bisa eksplor kehidupan asli masyarakat NTB melalui desa-desa wisata yang masih menjaga adat
+                    istiadat dan tradisi mereeka~ Hal ini bakal ngasih kamu pengalaman autentik yang ga bakal bisa kamu
+                    temukan di mana pun.
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="img/budaya-desa-adat/desa-sade-1.jpeg" alt="Desa Sade">
+                        <h4>Desa Sade</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/budaya-desa-adat/desa-sukarara-1.jpg" alt="Desa Sukarara">
+                        <h4>Desa Sukarara</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/budaya-desa-adat/desa-ende-1.jpg" alt="Desa Ende">
+                        <h4>Desa Ende</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section">
+                <h3>Gili</h3>
+                <p>
+                    NTB memiliki Kepulauan cantik di sekitar Lombok yang bebas kendaraan bermotor, cocok buat kamu yang
+                    suka pergi pergi naik motor sambil kena angin sepoi-sepoi~ Gili Trawangan, Gili Air, dan Gili Meno
+                    menawarkan pengalaman tropis yang tak terlupakan dengan pasir putih dan air laut yang cukup jernih.
+                </p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="img/gili/gili-trawangan-1.jpg" alt="Gili Trawangan">
+                        <h4>Gili Trawangan </h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gili/gili-air-1.png" alt="Gili Air">
+                        <h4>Gili Air</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gili/gili-meno-1.jpg" alt="Gili Meno">
+                        <h4>Gili  Meno</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gili/gili-nanggu-1.jpg" alt="Gili Nanggu">
+                         <h4>Gili Nanggu</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gili/gili-sudak-1.jpg" alt="Gili Sudak">
+                        <h4>Gili Sudak</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/gili/gili-kedis-1.jpg" alt="Gili Kedis">
+                        <h4>Gili Kedis</h4>
+                    </div>
+                    <div class="card">
+                         <img src="img/gili/gili-pulau-moyo-1.jpg" alt="Gili Pylau Moyo">
+                        <h4>Gili Pulau Moyo</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section">
+                <h3>Masjid & Religi</h3>
+                <p>
+                    Tempat-tempat bersejarah dan religius inilah yang menjadi saksi sejarah keislaman di NTB!
+                    Bangunan-bangunan ini punya arsitektur unik dan makna spiritual yang dalam.</p>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="img/sejarah-religi/masjid-bayan-beleq-1.jpg" alt="Masjid Bayan Beleq">
+                        <h4>Masjid Bayan Beleq</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/sejarah-religi/istana-dalam-loka-1.jpg" alt="Istana Dalam Loka">
+                        <h4>Istana Dalam Loka</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="top5" class="top5">
+        <div class="container">
+            <h2>Top 5 Destinasi NTB</h2>
+            <p>Ini dia destinasi yang paling sering bikin wisatawan jatuh cinta!</p>
+
+            <div class="top5-list">
+                <div class="top5-item">
+                     <div class="urutan">1</div>
+                    <div class="deskripsi">
+                        <h3>Pantai Pink (Pink Beach)</h3>
+                        <div class="destination-content">
+                            <img src="img/pantai/pantai-pink-1.jpg" alt="Pantai Pink" class="top5-img">
+                            <div class="preview-lokasi">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31712.22840066059!2d119.5206855347767!3d-8.74235153786605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc675b6f19ba91%3A0x1c04d0d9e40f05c7!2sPink%20Beach!5e0!3m2!1sen!2sid!4v1612345678900"
+                                    width="200" height="150" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <p>
+                            Pantai dengan pasir berwarna merah muda alami yang sangat langka di dunia. Keindahannya
+                            seolah menyambutmu dengan senyum dan semangat bahagia setiap kali menginjakkan kaki di sana.
+                            Air laut yang jernih membuatnya sempurna untuk snorkeling.
+                        </p>
+
+                        <p><strong>Keunggulan:</strong> Pasir pink langka, spot snorkeling terbaik, sunrise indah</p>
+                    </div>
+                </div>
+
+                <div class="top5-item">
+                    <div class="urutan">2</div>
+                    <div class="deskripsi">
+                        <h3>Gunung Rinjani</h3>
+                        <div class="destination-content">
+                            <img src="img/gunung-danau-bukit/gunung-rinjani-1.jpg" alt="Gunung Rinjani"
+                                class="top5-img">
+                            <div class="preview-lokasi">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157219.5506461647!2d116.17755745!3d-8.414591199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc3ada6615c04b%3A0x959c385203439119!2sRinjani%20Mountain!5e0!3m2!1sen!2sid!4v1612345678901"
+                                    width="200" height="150" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <p>
+                            Gunung aktif tertinggi kedua di Indonesia yang menawarkan pengalaman pendakian luar biasa. Di
+                            puncaknya, kamu bisa menyaksikan keindahan Danau Segara Anak yang menakjubkan. Pendakian
+                            Rinjani adalah ujian sekaligus hadiah dari alam.
+                        </p>
+
+                        <p><strong>Keunggulan:</strong> Pendakian terbaik, pemandangan spektakuler, sunrise dari atas
+                            awan</p>
+                    </div>
+                </div>
+
+                <div class="top5-item">
+                    <div class="urutan">3</div>
+                    <div class="deskripsi">
+                        <h3>Gili Trawangan</h3>
+                        <div class="destination-content">
+                            <img src="img/gili/gili-trawangan-1.jpg" alt="Gili Trawangan" class="top5-img">
+                            <div class="preview-lokasi">
+                                  <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31713.000994701324!2d116.0587687347767!3d-8.35455303786605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc3f058786f64f%3A0x29538551502110c4!2sGili%20Trawangan!5e0!3m2!1sen!2sid!4v1612345678902"
+                                    width="200" height="150" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <p>
+                            Gili paling populer dengan nuansa party dan keindahan bawah lautnya. Tidak ada kendaraan
+                            bermotor di pulau ini, menciptakan suasana damai yang dipadukan dengan pemandangan matahari
+                            terbenam yang memukau setiap sorenya.
+                        </p>
+                        <p><strong>Keunggulan:</strong> Malam hari yang hidup, diving & snorkeling terbaik, sunset
+                            romantis</p>
+                    </div>
+                </div>
+
+                <div class="top5-item">
+                    <div class="urutan">4</div>
+                    <div class="deskripsi">
+                        <h3>Sendang Gile</h3>
+                        <div class="destination-content">
+                            <img src="img/air-terjun/sendang-gile-1.jpg" alt="Sendang Gile" class="top5-img">
+                            <div class="preview-lokasi">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.256983489482!2d116.40250847358999!3d-8.303925183542493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdd5a5ea93493d%3A0x9f33e3b0060655a6!2sSendang%20Gile%20Waterfall%20Gate%202!5e1!3m2!1sid!2sid!4v1766046855043!5m2!1sid!2sid"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <p>
+                            Air terjun cantik di lereng Gunung Rinjani dengan air yang jernih dan udara segar. Perjalanan
+                            menuju air terjun disuguhi pemandangan sawah terasering dan lembah hijau yang menyejukkan
+                            mata.
+                        </p>
+                        <p><strong>Keunggulan:</strong> Air terjun alami, lingkungan asri, spot berendam segar</p>
+                    </div>
+                </div>
+
+                <div class="top5-item">
+                    <div class="urutan">5</div>
+                    <div class="deskripsi">
+                        <h3>Pantai Senggigi</h3>
+                        <div class="destination-content">
+                            <img src="img/pantai/pantai-senggigi-1.jpg" alt="Pantai Senggigi" class="top5-img">
+                            <div class="preview-lokasi">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63428.06784840295!2d116.1818360347767!3d-8.52469523786605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc4a8c0c0c0c0c%3A0xc0c0c0c0c0c0c0c0!2sSenggigi%20Beach!5e0!3m2!1sen!2sid!4v1612345678904"
+                                    width="200" height="150" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <p>
+                            Pantai paling terkenal di Lombok dengan garis pantai yang panjang dan ombak yang tenang.
+                            Menjadi tempat ideal untuk berjemur, bermain air, atau sekadar bersantai sambil menikmati
+                            makanan lezat di restoran sepanjang pantai.
+                        </p>
+                        <p><strong>Keunggulan:</strong> Akses mudah, fasilitas lengkap, spot sunset terbaik</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ntb-def" class="ntb-def">
+        <div class="container">
+            <h2>Kenapa Harus ke NTB?</h2>
+            <p>Ini 3 alasan mengapa NTB adalah destinasi wisata terbaik untukmu!</p>
+
+            <div class="def-grid">
+                <div class="def">
+                    <h3>Alam Masih Alami</h3>
+                    <p>Belum terlalu ramai, masih terasa alami, dan pemandangannya bener-bener real life no filter</p>
+                </div>
+
+                <div class="def">
+                    <h3>Budaya Unik</h3>
+                    <p>Masyarakat ramah, tradisi hidup, dan kamu bakal merasa diterima sebagai tamu.</p>
+                </div>
+
+                <div class="def">
+                    <h3>Cocok untuk Healing & Petualangan</h3>
+                    <p>>Mau santai di pantai atau nanjak gunung? NTB punya semuanya! Tempat yang sempurna untuk
+                        melepaskan stres dan mencari semangat baru.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="gallery">
+        <div class="container">
+            <h2>Galeri Wisata NTB</h2>
+            <p>Kumpulan foto-foto menakjubkan dari berbagai destinasi wisata di NTB</p>
+
+            <div class="gallery-grid">
+                <img src="img/pantai/pantai-pink-1.jpg" alt="Pantai Pink">
+                <img src="img/pantai/pantai-selong-belanak-1.jpg" alt="Pantai Selong Belanak">
+                <img src="img/pantai/pantai-kuta-mandalika-1.png" alt="Pantai Kuta Mandalika">
+                <img src="img/pantai/pantai-senggigi-1.jpg" alt="Pantai Senggigi">
+                <img src="img/pantai/pantai-tanjung-aan-1.jpg" alt="Pantai Tanjung Aan">
+                <img src="img/pantai/pantai-mawun-1.jpg" alt="Pantai Mawun">
+                <img src="img/pantai/pantai-ekas-1.png" alt="Psntai Ekas">
+                <img src="img/pantai/pantai-nipah-1.png" alt="Pantai Nipah">
+                <img src="img/pantai/pantai-pink-2.png" alt="Pantai Pink 2">
+                <img src="img/pantai/pantai-pink-3.png" alt="Pantai Pink 3">
+                <img src="img/pantai/pantai-selong-belanak-2.jpg" alt="Pantai Selong Belanak 2">
+                <img src="img/pantai/pantai-selong-belanak-3.jpg" alt="Pantai Selong Belank 3">
+                <img src="img/pantai/pantai-kuta-mandalika-2.jpg" alt="Pantai Kuta Mandalika 2">
+                <img src="img/pantai/pantai-kuta-mandalika-3.png" alt="Pantai Kuta Mandalika 3">
+                <img src="img/pantai/pantai-senggigi-2.jpg" alt="Pantai Senggigi 2">
+                <img src="img/pantai/pantai-senggigi-3.jpg" alt="Pantai Senggigi 3 ">
+                <img src="img/pantai/pantai-tanjung-aan-2.jpg" alt="Pantai Tanjung Aan 2">
+                <img src="img/pantai/pantai-tanjung-aan-3.jpg" alt="Pantai Tanjung Aan 3">
+                <img src="img/pantai/pantai-mawun-2.jpg" alt="Pantai Mawun 2">
+                <img src="img/pantai/pantai-mawun-3.png" alt="Pantai Mawun 3">
+                <img src="img/pantai/pantai-ekas-2.jpg" alt="Pantai Ekas 2">
+                <img src="img/pantai/pantai-ekas-3.jpg" alt="Pantai Ekas 3">
+                <img src="img/pantai/pantai-nipah-2.png" alt="Pantai Nipah 2">
+                <img src="img/pantai/pantai-nipah-3.png" alt="Pantai Nipah 3">
+
+                <img src="img/gunung-danau-bukit/gunung-rinjani-1.jpg" alt="Gunung Rinjani">
+                <img src="img/gunung-danau-bukit/danau-segara-anak-1.jpeg" alt="Danau Segara Anak">
+                <img src="img/gunung-danau-bukit/bukit-merese-1.png" alt="Bukit Merese">
+                <img src="img/gunung-danau-bukit/savana-propok-1.jpeg" alt="Savana Propok">
+                <img src="img/gunung-danau-bukit/bukit-pergasingan-1.jpg" alt="Bukit Pergasingan">
+                <img src="img/gunung-danau-bukit/gunung-rinjani-2.jpg" alt="Gunung Rinjani 2">
+                <img src="img/gunung-danau-bukit/danau-segara-anak-2.jpeg" alt="Danau Segara Anak 2">
+                <img src="img/gunung-danau-bukit/bukit-merese-2.png" alt="Bukit Merese 2">
+                <img src="img/gunung-danau-bukit/gunung-rinjani-3.jpg" alt="Gunung Rinjani 3">
+                <img src="img/gunung-danau-bukit/danau-segara-anak-3.png" alt="Danau Segara Anak 3">
+                <img src="img/gunung-danau-bukit/bukit-merese-3.jpg" alt="Bukit Merese 3">
+                <img src="img/gunung-danau-bukit/savana-propok-2.jpg" alt="Savana Propok 2">
+                <img src="img/gunung-danau-bukit/savana-propok-3.jpg" alt="Savana Propok 3">
+                <img src="img/gunung-danau-bukit/bukit-pergasingan-2.png" alt="Bukit Pergasingan 2">
+                <img src="img/gunung-danau-bukit/bukit-pergasingan-3.png" alt="Bukit Pergasingan 3">
+
+                <img src="img/gili/gili-trawangan-1.jpg" alt="Gili Trawangan">
+                <img src="img/gili/gili-air-1.png" alt="Gili Air">
+                <img src="img/gili/gili-meno-1.jpg" alt="Gili Meno">
+                <img src="img/gili/gili-nanggu-1.jpg" alt="Gili Nanggu">
+                <img src="img/gili/gili-sudak-1.jpg" alt="Gili Sudak">
+                <img src="img/gili/gili-kedis-1.jpg" alt="Gili Kedis">
+                <img src="img/gili/gili-pulau-moyo-1.jpg" alt="Gili Pulau Moyo">
+                <img src="img/gili/gili-trawangan-2.jpg" alt="Gili Trawangan 2">
+                <img src="img/gili/gili-air-2.png" alt="Gili Air 2">
+                <img src="img/gili/gili-meno-2.jpg" alt="Gili Meno 2">
+                <img src="img/gili/gili-meno-3.jpg" alt="Gili Meno 3">
+                <img src="img/gili/gili-nanggu-2.png" alt="Gili Nanggu 2">
+                <img src="img/gili/gili-nanggu-3.jpg" alt="Gili Nangu 3">
+                <img src="img/gili/gili-sudak-2.png" alt="Gili Sudak 2">
+                <img src="img/gili/gili-sudak-3.jpg" alt="Gili Sudak 3">
+                <img src="img/gili/gili-kedis-2.png" alt="Gili Kedis 2">
+                <img src="img/gili/gili-kedis-3.jpg" alt="Gili Kedis 3">
+                <img src="img/gili/gili-pulau-moyo-2.jpg" alt="Gili Pulau Moyo 2">
+                <img src="img/gili/gili-pulau-moyo-3.jpg" alt="Gili Pulau Moyo 3">
+                <img src="img/gili/gili-trawangan-3.jpg" alt="Gili Trawangan 3">
+
+                <img src="img/air-terjun/sendang-gile-1.jpg" alt="Air Terjun Sendang Gile">
+                <img src="img/air-terjun/benang-kelambu-1.png" alt="Air Terjun Benang Kelambu">
+                <img src="img/air-terjun/benang-stokel-1.jpg" alt="Air Terjun Benang Stokel">
+                <img src="img/air-terjun/tiu-kelep-1.jpg" alt="Air Terjun Tiu Kelep">
+                <img src="img/air-terjun/mata-jitu-1.png" alt="Air Terjun Mata Jitu">
+                <img src="img/air-terjun/sendang-gile-2.png" alt="Air Terjun Sendang Gile 2">
+                <img src="img/air-terjun/benang-kelambu-2.jpeg" alt="Air Terjun Benang Kelambu 2">
+                <img src="img/air-terjun/tiu-kelep-2.jpg" alt="Air Terjun Tiu Kelep 2">
+                <img src="img/air-terjun/sendang-gile-3.png" alt="Air Terjun Sendang Gile 3">
+                <img src="img/air-terjun/benang-stokel-2.jpg" alt="Air Terjun Benang Stokel 1">
+                <img src="img/air-terjun/benang-stokel-3.jpg" alt="Air Terjun Benang Stokel 3">
+                <img src="img/air-terjun/tiu-kelep-3.jpg" alt="Air Terjun Tiu Kelep 3">
+                <img src="img/air-terjun/mata-jitu-2.jpg" alt="Air Terjun Mata Jitu 2">
+                <img src="img/air-terjun/mata-jitu-3.png" alt="Air Terjun Mata Jitu 3">
+
+                <img src="img/budaya-desa-adat/desa-sade-1.jpeg" alt="Desa Sade">
+                <img src="img/budaya-desa-adat/desa-sukarara-1.jpg" alt="Desa Sukarara">
+                <img src="img/budaya-desa-adat/desa-ende-1.jpg" alt="  Desa Ende">
+                <img src="img/budaya-desa-adat/desa-sade-2.jpg" alt="Desa Sade 2">
+                <img src="img/budaya-desa-adat/desa-sukarara-2.jpg" alt="Desa Sukarara 2">
+                <img src="img/budaya-desa-adat/desa-ende-2.jpg" alt="Desa Ende 2">
+                <img src="img/budaya-desa-adat/desa-sade-3.jpg" alt="Desa Sade 3">
+                <img src="img/budaya-desa-adat/desa-sukarara-3.jpg" alt="Desa Sukarara 3">
+                <img src="img/budaya-desa-adat/desa-ende-3.jpg" alt="Desa Ende 3">
+
+                <img src="img/sejarah-religi/masjid-bayan-beleq-1.jpg" alt="Masjid Bayan Beleq">
+                <img src="img/sejarah-religi/istana-dalam-loka-1.jpg" alt="Istna Dalam Loka">
+                <img src="img/sejarah-religi/masjid-bayan-beleq-2.jpg" alt="Masjid Bayan Beleq 2">
+                <img src="img/sejarah-religi/istana-dalam-loka-2.jpg" alt="Istana Dalam Loka 2">
+                <img src="img/sejarah-religi/masjid-bayan-beleq-3.jpg" alt=" Masjid Bayan Beleq 3">
+                <img src="img/sejarah-religi/istana-dalam-loka-3.jpg" alt="Istana Dalam Loka 3">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h2> NTB Tourism</h2>
+                <p>Website ini dibuat untuk tugas mata kuliah Pemrograman Web 1  </p>
+                <p>&copy; 2025 NTB Tourism. Nadya Rabila - 240504059.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
