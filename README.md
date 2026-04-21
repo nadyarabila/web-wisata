@@ -4,6 +4,12 @@ Website ini merupakan proyek Ujian Akhir Semester (UAS) untuk mata kuliah **Pemr
 Proyek ini bertujuan untuk menampilkan informasi dan promosi destinasi wisata yang ada di **Nusa Tenggara Barat (NTB)** secara menarik dan informatif.
 
 ---
+## 🌐 Demo Website
+
+Website dapat diakses melalui GitHub Pages:
+👉 https://nadyarabila.github.io/web-wisata
+
+---
 
 ## 📌 Deskripsi
 
@@ -42,13 +48,6 @@ web-wisata/
 └── img/
     ├── (file gambar destinasi wisata)
 ```
-
----
-
-## 🌐 Demo Website
-
-Website dapat diakses melalui GitHub Pages:
-👉 https://nadyarabila.github.io/web-wisata
 
 ---
 
