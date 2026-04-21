@@ -10,6 +10,8 @@ Proyek ini bertujuan untuk menampilkan informasi dan promosi destinasi wisata ya
 Website ini adalah web statis yang menampilkan berbagai destinasi wisata populer di NTB seperti pantai, gunung, dan tempat wisata alam lainnya.
 Pengguna dapat melihat informasi singkat serta galeri gambar dari setiap destinasi yang ditampilkan.
 
+Beberapa gambar pada website mungkin tidak dapat ditampilkan secara optimal. Hal ini disebabkan oleh keterbatasan ukuran file saat proses upload ke GitHub, sehingga sebagian gambar harus dikompresi atau tidak disertakan dalam repository.
+
 ---
 
 ## 🎯 Tujuan
